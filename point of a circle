@@ -1,0 +1,12 @@
+            C static void Main(string[] args)
+        {
+           Console.Write("Enter x: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter y: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            int radius = 5 * 5;
+            bool point = (x * x) + (y * y) <= radius ? true : false;
+            Console.WriteLine("is it within the circle? {0}", point);
+        }
+        
